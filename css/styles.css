@@ -235,9 +235,12 @@ button:focus {
   border-radius: 4px;
   padding: 24px 0;
   margin-bottom: 8px;
+  justify-content: center;
+  height: 112px;
 }
 .icon {
-  display: block;
+  display: flex;
+  align-items: center;
   margin: 0 auto;
 }
 .one-title {
