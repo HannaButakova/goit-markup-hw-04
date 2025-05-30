@@ -230,6 +230,8 @@ button:focus {
   width: calc((100% - 72px) / 4);
 }
 .one-icon {
+  display: flex;
+  align-items: center;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -239,8 +241,6 @@ button:focus {
   height: 112px;
 }
 .icon {
-  display: flex;
-  align-items: center;
   margin: 0 auto;
 }
 .one-title {
