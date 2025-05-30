@@ -229,6 +229,17 @@ button:focus {
 .one-item {
   width: calc((100% - 72px) / 4);
 }
+.one-icon {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 24px 0;
+  margin-bottom: 8px;
+}
+.icon {
+  display: block;
+  margin: 0 auto;
+}
 .one-title {
   margin-bottom: 8px;
 }
@@ -262,6 +273,8 @@ button:focus {
 .two-item {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .two-text {
   padding: 32px 0;
