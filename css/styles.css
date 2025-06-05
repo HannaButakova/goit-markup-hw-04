@@ -315,30 +315,32 @@ button:focus {
   margin-bottom: 8px;
 }
 
-.icons-list {
+.social-media {
+}
+.icon-list {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-.icons-item {
-  width: 100%;
-  height: 100%;
-}
-.icon-link {
+.icon-item {
   width: 40px;
   height: 40px;
+}
+.icon-link {
+  width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  justify-content: center;
 }
 .icon-link:hover,
 .icon-link:focus {
   background-color: #404bbf;
 }
-.icon-sm {
+
+.icon-image {
   fill: #f4f4fd;
 }
 
@@ -424,4 +426,43 @@ button:focus {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.soclink-footer-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.soclink-footer-list {
+  display: flex;
+  gap: 16px;
+}
+
+.soclink-footer-list-item {
+  width: 40px;
+  height: 40px;
+}
+
+.soclink-footer-svg-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soclink-icon-footer {
+  fill: #f4f4fd;
+}
+
+.soclink-footer-svg-link:hover,
+.soclink-footer-svg-link:focus {
+  background-color: #31d0aa;
 }
