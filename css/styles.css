@@ -315,8 +315,6 @@ button:focus {
   margin-bottom: 8px;
 }
 
-.social-media {
-}
 .icon-list {
   display: flex;
   justify-content: center;
@@ -447,9 +445,25 @@ button:focus {
   max-width: 264px;
   margin-bottom: 16px;
 }
-.social-media-footer {
+.icon-list-footer {
+  display: flex;
+  justify-content: center;
   gap: 16px;
 }
-.social-media-footer: :hover {
+.icon-item-footer {
+  width: 40px;
+  height: 40px;
+}
+.icon-link-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-link-footer:hover,
+.icon-link-footer:focus {
   background-color: #31d0aa;
 }
